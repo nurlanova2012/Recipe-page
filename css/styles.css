@@ -1,12 +1,5 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 body {
+  min-height: 100vh;
   margin: 0 auto;
   padding: 0 50px;
   font-family: Heebo, sans-serif;
@@ -23,7 +16,6 @@ h1 {
   color: #342b1b;
   line-height: 3.5rem;
 }
-
 h2 {
   font-family: "Libre Baskerville", serif;
   font-weight: 600;
@@ -31,16 +23,18 @@ h2 {
   color: #97702e;
   line-height: 24px;
 }
-h3 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #58175e;
-}
 li {
   padding: 3px;
 }
-.container {
+main {
   margin: 0 auto;
+}
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
 }
 .content-img {
   border-radius: 20px;
@@ -52,6 +46,11 @@ li {
   background-color: #fef1ff;
   padding: 30px;
   border-radius: 20px;
+}
+.content-prep-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #58175e;
 }
 td {
   padding-right: 300px;
